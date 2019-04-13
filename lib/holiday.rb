@@ -30,6 +30,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
      if holiday == :winter
        
      holiday_hash[:winter].each {|k, v| holiday_hash[:winter][k] << supply }
+     holiday_hash[:winter].each {|k, v| holiday_hash[:winter][k] << supply }
    end
      
 
